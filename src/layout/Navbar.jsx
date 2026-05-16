@@ -82,9 +82,11 @@ export const Navbar = () => {
               </a>
             ))}
 
-            <Button onClick={() => setIsMobileMenuOpen(false)}>
+            <a href="#contact">
+              <Button onClick={() => setIsMobileMenuOpen(false)}>
               Contact Me
             </Button>
+            </a>
           </div>
         </div>
       )}
