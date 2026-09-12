@@ -48,23 +48,20 @@ export const About = () => {
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
-              <p>
-                I'm a passionate software engineer with over 2 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiousity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+              <p>I'm a passionate software engineer with over 2 years of
+                  experience building digital products that make a difference. My
+                  journey started with a curiosity for how computers and applications work under the hood. 
+                  Today, it has grown into a deep understanding of how to build high-quality software.
               </p>
               <p>
-                I specialise in React, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                  I specialize in creating reliable backend systems, managing secure databases, 
+                  and using modern DevOps tools to safely launch applications. My approach combines 
+                  writing clean code with a focus on creating fast, smooth, and secure experiences for users.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                  When I'm not coding, you'll find me exploring new technologies,
+                  contributing to open-source projects, or sharing knowledge with
+                  the developer community.
               </p>
             </div>
 

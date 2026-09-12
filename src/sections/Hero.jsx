@@ -11,16 +11,19 @@ import { AnimatedBorderButton } from "../components/AnimatedBorderButton";
 
 const skills = [
   "React",
+  "Java",
+  "Spring boot",
+  "Tailwind CSS",
   "Node.js",
   "PostgreSQL",
   "MongoDB",
-  "Power Bi",
-  "Tableau",
-  "Redux",
+  "MySql",
+  "Docker",
+  "Redux Toolkit",
   "Vercel",
-  "Tailwind CSS",
   "Git",
   "GitHub",
+  "GitHub Actions",
   "Framer Motion",
 ];
 
@@ -63,7 +66,7 @@ export const Hero = () => {
             <div className="animate-fade-in">
               <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass text-sm text-primary">
                 <span className="w-2 h-2 bg-primary rounded-full animate-pulse" />
-                Software Engineer • React Specialist
+                Software Engineer
               </span>
             </div>
 
@@ -79,7 +82,7 @@ export const Hero = () => {
                 </span>
               </h1>
               <p className="text-lg text-muted-foreground max-w-lg animate-fade-in animation-delay-200">
-                Hi, I'm Abraham Maurice, a software engineer specialising in React. I build scalable, performant web applications that users love.
+               Hi, I'm Abraham Maurice. I am a software engineer who loves making fast, reliable apps and websites. I build high quality software that works smoothly, solves real problems, and is easy for people to use.
               </p>
             </div>
 

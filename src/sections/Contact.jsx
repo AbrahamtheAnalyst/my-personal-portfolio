@@ -26,7 +26,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "Calabar, Nigeria",
+    value: "Nigeria",
     href: "#",
   },
 ];
@@ -93,7 +93,7 @@ export const Contact = () => {
         <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
       </div>
 
-      {/* Changed px-6 to px-4 for tighter mobile protection */}
+      
       <div className="container mx-auto px-4 relative z-10 w-full max-w-full">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -112,9 +112,9 @@ export const Contact = () => {
           </p>
         </div>
 
-        {/* Added px-0 since container already handles padding, and set gap-8 for mobile spacing */}
+        
         <div className="w-full px-0 grid lg:grid-cols-2 gap-8 md:gap-12 max-w-5xl mx-auto">
-          {/* Form Card: Added p-5 sm:p-8 and min-w-0 */}
+          
           <div className="glass p-5 sm:p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300 w-full min-w-0">
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
@@ -207,15 +207,15 @@ export const Contact = () => {
                   ) : (
                     <AlertCircle className="w-5 h-5 shrink-0" />
                   )}
-                  <p className="text-sm break-words">{submitStatus.message}</p>
+                  <p className="text-sm wrap-break-word">{submitStatus.message}</p>
                 </div>
               )}
             </form>
           </div>
 
-          {/* Contact Info Column: Added min-w-0 */}
+         
           <div className="space-y-6 animate-fade-in animation-delay-400 w-full min-w-0">
-            {/* Added p-5 sm:p-8 */}
+           
             <div className="glass rounded-3xl p-5 sm:p-8">
               <h3 className="text-xl font-semibold mb-6">
                 Contact Information
@@ -230,12 +230,12 @@ export const Contact = () => {
                     <div className="w-11 h-11 sm:w-12 sm:h-12 rounded-xl bg-primary/10 flex items-center justify-center group-hover:bg-primary/20 transition-colors shrink-0">
                       <item.icon className="w-5 h-5 text-primary" />
                     </div>
-                    {/* Added min-w-0 flex-1 to keep text container contained */}
+                    
                     <div className="min-w-0 flex-1">
                       <div className="text-xs sm:text-sm text-muted-foreground">
                         {item.label}
                       </div>
-                      {/* Added truncate and break-all to stop long emails/links from overflowing */}
+                      
                       <div className="font-medium text-sm sm:text-base truncate break-all">
                         {item.value}
                       </div>
