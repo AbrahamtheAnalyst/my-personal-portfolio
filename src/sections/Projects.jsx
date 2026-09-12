@@ -2,6 +2,15 @@ import { ArrowUpRight, Github } from "lucide-react";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
 const projects = [
   {
+    title: "Travel Agency Website",
+    description:
+      "A travel agency landing page using React.js, Tailwind CSS. It is completely responsive for large and mobile devices.",
+    image: "/projects/Travel Agency.png",
+    tags: ["React", "Tailwind CSS"],
+    link: "https://travel-agency-frontend-puce.vercel.app/",
+    github: "https://github.com/AbrahamtheAnalyst/Travel-Agency-Frontend",
+  },
+  {
     title: "Simple and Modern Landing Page",
     description:
       "A simple and modern landing page using React.js, Tailwind CSS and Framer Motion. It is completely responsive for large and mobile devices.",

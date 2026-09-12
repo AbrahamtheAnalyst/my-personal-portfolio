@@ -111,7 +111,7 @@ export const Contact = () => {
           </p>
         </div>
 
-        <div className=" w-full grid lg:grid-cols-2 gap-12 max-w-full md:max-w-5xl mx-auto">
+        <div className="w-full px-4 grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
           <div className="glass p-8 rounded-3xl border border-primary/30 animate-fade-in animation-delay-300">
             <form className="space-y-6" onSubmit={handleSubmit}>
               <div>
